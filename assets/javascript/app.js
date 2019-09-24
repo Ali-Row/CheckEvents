@@ -177,7 +177,7 @@ $(document).ready(function() {
     // obtain reference to checkboxes named 'interests[]'
     var interests = $('input[name="interests[]"]');
     // test 'interests' are being successfully retreived. Should print that it is an object (array)
-    console.log('here are the interests: '+interests);
+    console.log('here are the interests: '+ interests);
     // capture all inputs when #check_events_button is clicked. Use event delegation since the check_events_button will be checking for elements that exist dynamically...
     $(document).on('click', '#check_events_button', function(event) {
         event.preventDefault();
